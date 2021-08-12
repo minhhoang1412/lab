@@ -1,85 +1,90 @@
 <!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lab 01</title>
-    <link rel="StyleSheet" href="style.css">
+    <title>The Basic Language of the Web: HTML</title>
+    <link rel="StyleSheet" href="/css/style.css">
     
 
 </head>
 
 <body>
-    <header>
+    <div class ="container">
+    <header class="main-header">
        <h1>📘 The Code Lean</h1> 
-       <P>
+       <nav>
            <a href="blog.html">Blog</a>
-           <a href="Challenges.html">Challenges</a>
-           <a href="Flexbox.html">Flexbox</a>
-           <a href="CSS Grid.html">CSS Grid</a>
-       </P>
+           <a href="#">Challenges</a>
+           <a href="#">Flexbox</a>
+           <a href="#">CSS Grid</a>
+       </nav>
        <img src="/images/laura-jones.jpg" width="100" height="100">
     </header>
-</body>
 
 
-<h1>Basic Language of the Web: HTML</h1>
+<article>
+    <header class="post-header">
+<h2>Basic Language of the Web: HTML</h2>
 
-<p>
-Posted by <strong>Dang Kim Thi</strong> on Monday, June 21st 2027</br>
+<p id ="author">Posted by <strong>Dang Kim Thi</strong> on Monday, June 21st 2027</p></br>
+</header>
+<P>All modern websites and web applications are built using three <em>fundamental</em> technologies: HTML, CSS and JavaScript. These are the languages of the web.</p>
 
-All modern websites and web applications are built using three fundamental technologies: HTML, CSS and JavaScript. These are the languages of the web.
+<p>In this post, let's focus on HTML. We will learn what HTML is all about, and why you too should learn it.</p>
 
-In this post, let's focus on HTML. We will learn what HTML is all about, and why you too should learn it.</p>
+<h3>What is HTML?</h3>
 
-<h1>What is HTML?</h1>
+<p>HTML stands for <strong>H</strong>yper <strong>T</strong>ext <strong>M</strong>arkup <strong>L</strong>anguage. It's a markup language that web developers use to structure and describe the content of a webpage (not a programming language).</p>
 
-HTML stands for HyperText Markup Language. It's a markup language that web developers use to structure and describe the content of a webpage (not a programming language).
+<p>HTML consists of elements that describe different types of content: paragraphs, links, headings, images, video, etc. Web browsers understand HTML and render HTML code as websites.</p>
 
-HTML consists of elements that describe different types of content: paragraphs, links, headings, images, video, etc. Web browsers understand HTML and render HTML code as websites.
-
-In HTML, each element is made up of 3 parts:
+<p>In HTML, each element is made up of 3 parts:</p>
 <ol>
-    <li>The opening tag</li>
+    <li class="fist-li">The opening tag</li>
     <li>The closing tag</li>
     <li>The actual element</li>
 </ol>
 
 
 
-You can learn more at the <a href="https://developer.mozilla.org/en-US/docs/Web/HTML">MDN Web Docs</a>
+<p>You can learn more at the <a href="https://developer.mozilla.org/en-US/docs/Web/HTML">MDN Web Docs</a></p>
 .
 
-<h1>Why should you learn HTML?</h1>
+<h3>Why should you learn HTML?</h3>
 
 There are countless reasons for learning the <em>fundamental</em> language of the web. Here are 5 of them:
 <ul>
-    <li>To be able to use the fundamental web dev language</li>
+    <li class="fist-li">To be able to use the fundamental web dev language</li>
     <li>To hand-craft beautiful websites instead of relying on tools like Worpress or Wix</li>
     <li>To build web applications</li>
     <li>To impress friends</li>
     <li>To have fun 😃</li>
 </ul>
 
-Hopefully you learned something new here. See you next time!
-
-<h1>Related posts</h1>
-<ul>
+<p>Hopefully you learned something new here. See you next time!</p>
+</article>
+<aside>
+<h4>Related posts</h4>
+<ul class="related">
     <Li>
-        <img src="/images/related-1.jpg" width="100" height="100"><a href="#How_to_Learn_Web_Development">How to Learn Web Development</a></br>
-        By Jonas Schmedtmann
-
-    </Li>
-    <Li>
-        <img src="/images/related-2.jpg" width="100" height="100"><a href="#The_Unknown_Powers_of_CSS">The Unknown Powers of CSS</a></br>
-        By Jim Dillon
+        <img src="/images/related-1.jpg" width="100" height="100"><a href="#">How to Learn Web Development</a></br>
+       <p class="realated-author" >By Jonas Schmedtmann</p>
 
     </Li>
     <Li>
-        <img src="/images/related-3.jpg" width="100" height="100"><a href="#Why_JavaScript_is_Awesome">Why JavaScript is Awesome</a></br>
-        By Matilda
+        <img src="/images/related-2.jpg" width="100" height="100"><a href="#">The Unknown Powers of CSS</a></br>
+        <p class="realated-author" >By Jim Dillon</p>
+
+    </Li>
+    <Li>
+        <img src="/images/related-3.jpg" width="100" height="100"><a href="#">Why JavaScript is Awesome</a></br>
+        <p class="realated-author" >By Matilda</p>
     </Li>
 </ul>
+</aside>
+<footer> <p id="copyright" class="copyright text">© 2027 by The Code Lean</p></footer>
 
-Copyright © 2027 by The Code Lean
-</p>
+</div>
+</body>
 </html>
